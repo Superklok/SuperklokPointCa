@@ -1,6 +1,6 @@
 {
   "name": "superklokpointca",
-  "version": "1.10.2",
+  "version": "1.10.3",
   "description": "Superklok Labs (Français)",
   "main": "app.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Superklok/SuperklokPointCa/issues"
   },
-  "homepage": "http://superklok.ca",
+  "homepage": "http://superkloklabs.ca",
   "dependencies": {
     "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
