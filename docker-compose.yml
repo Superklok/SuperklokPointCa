@@ -2,7 +2,7 @@ version: "2.4"
 
 services:
   app:
-    image: superklokpointca:1.10.3
+    image: superklokpointca:1.10.4
     build: 
       context: .
     ports:
