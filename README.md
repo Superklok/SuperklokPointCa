@@ -1,4 +1,4 @@
-# Superklok Labs (Version française) v1.11.0
+# Superklok Labs (Version française) v1.11.1
 <br />
 
 ## Basic Root User Deployment Guide For App Evaluation
