@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: superklok/superklokpointca:1.11.5
+    image: superklok/superklokpointca:1.11.13
     build: 
       context: .
       target: prod

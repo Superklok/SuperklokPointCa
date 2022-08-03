@@ -1,0 +1,44 @@
+@media (prefers-color-scheme: dark) {
+	button:active,
+	button:focus,
+	button:hover {
+		outline: none !important;
+		text-decoration: none !important;
+	}
+
+	a {
+		color: #000080;
+		text-decoration: none !important;
+		transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-moz-transition: all 0.5s;
+	}
+
+	a:hover {
+		color: #383B3E;
+	}
+
+	.slBtn {
+		font-family: 'VT323', monospace;
+		color: #383B3E;
+		background: transparent;
+		border: none;
+		text-decoration: none;
+	}
+
+	.slBtn2 {
+		color: #000080;
+		background: transparent;
+		border: none;
+		text-decoration: none;
+	}
+
+	.slBtn2:hover {
+		color: #383B3E;
+	}
+
+	.socialBtn {
+		text-decoration: none;
+		padding: 7px;
+	}
+}

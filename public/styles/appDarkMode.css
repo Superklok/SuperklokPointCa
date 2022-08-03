@@ -1,0 +1,67 @@
+@media (prefers-color-scheme: dark) {
+	body {
+		color: #383B3E;
+		background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+		url('../assets/img/superklokBG.jpg') no-repeat center center fixed;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-color: #C8D5CB;
+		z-index: 0;
+	}
+
+	body:after {
+		content:"";
+		position:fixed;
+		top:0;
+		height:100vh;
+		left:0;
+		right:0;
+		background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+		url('../assets/img/superklokBG.jpg') center center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-color: #C8D5CB;
+		z-index:-1;
+	}
+
+	.xsText {
+		font-size: 1.2rem;
+	}
+
+	.smText {
+		font-size: 1.7rem;
+	}
+
+	.mdText {
+		font-size: 2.3rem;
+	}
+
+	.xsTitleText {
+		font-size: 5.5rem;
+	}
+
+	.lgText {
+		font-size: 7.5rem;
+	}
+
+	.contentFont {
+		font-family: 'Caveat', cursive;
+	}
+
+	.brandFont {
+		color: #0E1111;
+		font-family: 'VT323', monospace;
+	}
+
+	.whiteBG {
+		background-color: rgba(250, 235, 215, 0.3);
+	}
+
+	.dropBG {
+		background-color: rgba(250, 235, 215, 0.7);
+	}
+}
