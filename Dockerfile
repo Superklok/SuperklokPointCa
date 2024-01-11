@@ -1,10 +1,10 @@
-FROM node:17.2.0-alpine3.14 as base
+FROM node:20.10.0-alpine3.19 as base
 LABEL org.opencontainers.image.vendor="Superklok Labs"
-LABEL org.opencontainers.image.authors="trev@superklok.ca"
+LABEL org.opencontainers.image.authors="trev@superklok.com"
 LABEL org.opencontainers.image.title="SuperklokPointCa"
 LABEL org.opencontainers.image.description="Superklok Labs (Français)"
-LABEL org.opencontainers.image.version="1.11.13"
-LABEL org.opencontainers.image.created="2022-08-02"
+LABEL org.opencontainers.image.version="1.11.17"
+LABEL org.opencontainers.image.created="2024-01-11"
 LABEL org.opencontainers.image.url="https://hub.docker.com/r/superklok/superklokpointca"
 LABEL org.opencontainers.image.source="https://github.com/Superklok/SuperklokPointCa"
 LABEL org.opencontainers.image.licenses="ISC"
